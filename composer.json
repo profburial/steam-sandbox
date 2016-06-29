@@ -1,0 +1,28 @@
+{
+  "name": "vault/steam-api-sandbox",
+  "type": "library",
+  "description": "My musings with the steam api",
+  "keywords": ["steam"],
+  "homepage": "http://zombo.com",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Terry Harmon",
+      "email": "terry@vaultinnovation.com"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "da-mitchell/steam-api": "^2.1",
+    "vlucas/phpdotenv": "^2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6",
+    "mockery/mockery": "~0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vault\\": "src/Vault"
+    }
+  }
+}
